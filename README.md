@@ -1,5 +1,5 @@
 # DeepColor
-This is the mplementation of Google's Inception ResNet v2 for the task of automatic colorization of gray-scale images. The task-at-hand is treated as a classification problem and uses CIELAB color space for assigning colors to the pixels.
+This is the implementation of Google's Inception ResNet v2 for the task of automatic colorization of gray-scale images. The task-at-hand is treated as a classification problem and uses CIELAB color space for assigning colors to the pixels.
 
 The dataset consists of two compressed zip files:
 1. ab.zip : This contains 25 .npy files consisting of a and b dimensions of LAB color space images, of the MIRFLICKR25k randomly sized colored image dataset. The LAB color space generally takes up large disk spaces, hence is a lot slower to load. That is the reason, I divided this into 25 files, so that it can be loaded at the time of requirement.
